@@ -1,22 +1,22 @@
 class Videotools < Formula
   desc "Engine that runs videotools jobs on this machine"
   homepage "https://videotools-client.vercel.app"
-  version "1.5"
+  version "1.6"
 
   on_macos do
     on_arm do
-      url "https://github.com/sebastiangraz/videotools/releases/download/engine-v1.5/videotools-engine-darwin-arm64"
-      sha256 "c5977c846439275ddeffd287e950f5c731a3f63a6ac5fb1b866cb5d204a1b983"
+      url "https://github.com/sebastiangraz/videotools/releases/download/engine-v1.6/videotools-engine-darwin-arm64"
+      sha256 "7c4bcdc64cbb51a42c983452d31c304519a3319a1f606fa1fef4b6b8e145813f"
     end
     on_intel do
-      url "https://github.com/sebastiangraz/videotools/releases/download/engine-v1.5/videotools-engine-darwin-x64"
-      sha256 "901aefbc7369c97f295b21589a6dd5bb51806ae10fc717b8f4d11e61e36959ed"
+      url "https://github.com/sebastiangraz/videotools/releases/download/engine-v1.6/videotools-engine-darwin-x64"
+      sha256 "6aee0b724a6d3c60f28dc87bf1de82a267495824e1000008cc574b0deb7f0aff"
     end
   end
   on_linux do
     on_intel do
-      url "https://github.com/sebastiangraz/videotools/releases/download/engine-v1.5/videotools-engine-linux-x64"
-      sha256 "5c5833ec2a52efb83e92f3cbaaf33abc13b9368033d2791e2477b025dcf345e4"
+      url "https://github.com/sebastiangraz/videotools/releases/download/engine-v1.6/videotools-engine-linux-x64"
+      sha256 "7137b08b5e155e3c8b9ad7596251a540cfd43f622a9fa925d81f193169d7b04e"
     end
   end
 
